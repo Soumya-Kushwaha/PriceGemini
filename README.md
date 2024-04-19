@@ -18,39 +18,7 @@ To use PriceGemini, simply provide the model with the following features:
 
 The model will then output a prediction for the price of the diamond 💰
 
-### Example
-
-```python
-import pricegemini
-
-# Create a new PriceGemini model
-model = pricegemini.PriceGeminiModel()
-
-# Set the features for the diamond
-model.carat = 1.0
-model.cut = "Very Good"
-model.color = "D"
-model.clarity = "VS1"
-model.depth = 60.0
-model.table = 58.0
-model.x_dimension = 5.0
-model.y_dimension = 5.0
-model.z_dimension = 3.0
-
-# Predict the price of the diamond
-predicted_price = model.predict_price()
-
-# Print the predicted price
-print(predicted_price)
-```
-
-Output:
-
-```
-$3263.0
-```
-
-### Benefits
+# Benefits
 
 PriceGemini can be used to benefit a variety of stakeholders, including:
 
